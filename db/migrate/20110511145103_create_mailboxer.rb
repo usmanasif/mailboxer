@@ -28,7 +28,7 @@ class CreateMailboxer < ActiveRecord::Migration
       t.column :draft, :boolean, :default => false
       t.string :notification_code, :default => nil
       t.references :notified_object, :polymorphic => true
-      t.column :attachment, :string
+      t.column :attachments, :json
       t.column :updated_at, :datetime, :null => false
       t.column :created_at, :datetime, :null => false
       t.boolean :global, default: false
