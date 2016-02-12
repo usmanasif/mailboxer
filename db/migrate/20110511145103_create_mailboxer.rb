@@ -35,7 +35,6 @@ class CreateMailboxer < ActiveRecord::Migration
       t.datetime :expires
     end
 
-
   #Indexes
     #Conversations
     #Receipts

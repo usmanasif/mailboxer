@@ -18,3 +18,4 @@ rdoc/
 doc/
 .yardoc/*
 .rvmrc
+*.sublime-*
